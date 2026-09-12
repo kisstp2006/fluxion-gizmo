@@ -1,0 +1,51 @@
+// SPDX-License-Identifier: BSD-2-Clause
+
+.{
+    .name = .fluxion_gizmo,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.16.0",
+    .fingerprint = 0x8fc656d18c632f,
+    .dependencies = .{
+        // Pinned at the commits fluxion-engine pins, and debugdraw asked for
+        // with the engine's arguments: a program with both gets one copy of
+        // each, so a `Pen` from `app.debug` is the `Pen` a gizmo draws with.
+        .fluxion_math = .{
+            .url = "git+https://github.com/kisstp2006/fluxion-math#92afdbddbf930369265d24136402c7eb5dd8f70e",
+            .hash = "fluxion_math-0.1.0-dfpZBeNUBAAwUMriLKaOTRBWGFmfY53_jyYuMUxkPYek",
+        },
+        .fluxion_debugdraw = .{
+            .url = "git+https://github.com/kisstp2006/fluxion-debugdraw#398174da668e745687a31509d20e5a6fce6f1084",
+            .hash = "fluxion_debugdraw-0.1.0--_Mjkk4fAgBHb8vMpwpFWFPYc_fYJ-ccXumM5Nm-3wzU",
+        },
+
+        // The example's window, renderer and pictures, and nothing else's.
+        .fluxion_rhi = .{
+            .url = "git+https://github.com/kisstp2006/fluxion-rhi#7dd0ca471432fd731692f3bf0cd02a33551ca0d1",
+            .hash = "fluxion_rhi-0.1.0--pvwD_GzBAAKb_E-29Dpa6F5jLTAMWP8PCXFnAOzb4tL",
+            .lazy = true,
+        },
+        .fluxion_shader = .{
+            .url = "git+https://github.com/kisstp2006/fluxion-shader#929418fd6bcdd887414d3cda2328684b50368bd8",
+            .hash = "fluxion_shader-0.1.0-FqFMEmaMAwA0kjWxXizOFk30I7U5UDuPgk-063ElX_5X",
+            .lazy = true,
+        },
+        .fluxion_platform = .{
+            .url = "git+https://github.com/kisstp2006/fluxion-platform#a67f2d00fa8768b4fab689840fd599e454899afb",
+            .hash = "fluxion_platform-0.1.0-WsOjUcpyEQBCr0jsSshLNU2j5pS1woH0ZuPU-JAsma2C",
+            .lazy = true,
+        },
+        .fluxion_image = .{
+            .url = "git+https://github.com/kisstp2006/fluxion-image#79463ef201f11e15ada014467c0ad1d58b2a882d",
+            .hash = "fluxion_image-0.1.0-fyJkdS7vAAB1p43VSutvpxQB32hIcvJb3fGSZbo_qeha",
+            .lazy = true,
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "examples",
+        "README.md",
+        "LICENSE",
+    },
+}
