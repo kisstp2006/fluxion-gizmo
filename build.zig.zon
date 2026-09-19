@@ -14,24 +14,24 @@
             .hash = "fluxion_math-0.1.0-dfpZBeNUBAAwUMriLKaOTRBWGFmfY53_jyYuMUxkPYek",
         },
         .fluxion_debugdraw = .{
-            .url = "git+https://github.com/kisstp2006/fluxion-debugdraw#398174da668e745687a31509d20e5a6fce6f1084",
-            .hash = "fluxion_debugdraw-0.1.0--_Mjkk4fAgBHb8vMpwpFWFPYc_fYJ-ccXumM5Nm-3wzU",
+            .url = "git+https://github.com/kisstp2006/fluxion-debugdraw#7e56915aea724549b1e8736c9087606be039f2b4",
+            .hash = "fluxion_debugdraw-0.1.0--_MjkgEiAgCx-skIhwh02iy3oRGgLVnIroy98Ra42jEH",
         },
 
         // The example's window, renderer and pictures, and nothing else's.
         .fluxion_rhi = .{
-            .url = "git+https://github.com/kisstp2006/fluxion-rhi#7dd0ca471432fd731692f3bf0cd02a33551ca0d1",
-            .hash = "fluxion_rhi-0.1.0--pvwD_GzBAAKb_E-29Dpa6F5jLTAMWP8PCXFnAOzb4tL",
+            .url = "git+https://github.com/kisstp2006/fluxion-rhi#fcacf7bdb59fe17bebba3931457dbc50ce33e554",
+            .hash = "fluxion_rhi-0.1.0--pvwDyreBAD3zimVoEHTTd5BhOtXewjOEF_1D75nhG9o",
             .lazy = true,
         },
         .fluxion_shader = .{
-            .url = "git+https://github.com/kisstp2006/fluxion-shader#929418fd6bcdd887414d3cda2328684b50368bd8",
-            .hash = "fluxion_shader-0.1.0-FqFMEmaMAwA0kjWxXizOFk30I7U5UDuPgk-063ElX_5X",
+            .url = "git+https://github.com/kisstp2006/fluxion-shader#bc1e8ba69ad815f0b3b2a390bf9503f426eda8fc",
+            .hash = "fluxion_shader-0.1.0-FqFMEuiMAwAGGD5JIj6FQ0kr2OC3Z_f1uhrxHuCBT_Ob",
             .lazy = true,
         },
         .fluxion_platform = .{
-            .url = "git+https://github.com/kisstp2006/fluxion-platform#a67f2d00fa8768b4fab689840fd599e454899afb",
-            .hash = "fluxion_platform-0.1.0-WsOjUcpyEQBCr0jsSshLNU2j5pS1woH0ZuPU-JAsma2C",
+            .url = "git+https://github.com/kisstp2006/fluxion-platform#65f360fa3484c241438def3856c5b48b4a3e8cc9",
+            .hash = "fluxion_platform-0.1.0-WsOjUR1ZFwANXOiIAk3n_vA70LebrBMH_PV2d4GPkjyB",
             .lazy = true,
         },
         .fluxion_image = .{
