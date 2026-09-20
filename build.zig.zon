@@ -14,8 +14,8 @@
             .hash = "fluxion_math-0.1.0-dfpZBeNUBAAwUMriLKaOTRBWGFmfY53_jyYuMUxkPYek",
         },
         .fluxion_debugdraw = .{
-            .url = "git+https://github.com/kisstp2006/fluxion-debugdraw#610a02d4e1beb31cd1611d6f3b9cde1a60e3f6c8",
-            .hash = "fluxion_debugdraw-0.1.0--_MjkoQiAgAnW-8Rki_OevBa8Dzfnrk5GIPHIErKwdDL",
+            .url = "git+https://github.com/kisstp2006/fluxion-debugdraw#398174da668e745687a31509d20e5a6fce6f1084",
+            .hash = "fluxion_debugdraw-0.1.0--_Mjkk4fAgBHb8vMpwpFWFPYc_fYJ-ccXumM5Nm-3wzU",
         },
 
         // The example's window, renderer and pictures, and nothing else's.
