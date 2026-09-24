@@ -14,8 +14,8 @@
             .hash = "fluxion_math-0.1.0-dfpZBeNUBAAwUMriLKaOTRBWGFmfY53_jyYuMUxkPYek",
         },
         .fluxion_debugdraw = .{
-            .url = "git+https://github.com/kisstp2006/fluxion-debugdraw#55b6024314abebf4105ce235dfdaf4c450e0ac68",
-            .hash = "fluxion_debugdraw-0.1.0--_MjkqYiAgBNK_vouegy9pB9iuqgFbdzyBD_hbnWrwTa",
+            .url = "git+https://github.com/kisstp2006/fluxion-debugdraw#2d250dfea481f2e9e653f19877b72092ff57d3ce",
+            .hash = "fluxion_debugdraw-0.1.0--_MjkqYiAgCif12xVnXSwQ2eLNe8hWCEmlzjFvm73dvX",
         },
 
         // The example's window, renderer and pictures, and nothing else's.
@@ -25,8 +25,8 @@
             .lazy = true,
         },
         .fluxion_shader = .{
-            .url = "git+https://github.com/kisstp2006/fluxion-shader#136fd7dbe3fcbd1aa669c3123229c5260e3cf592",
-            .hash = "fluxion_shader-0.1.0-FqFMEoI3BwAuAQBSzIJwkCrwrVFRJp5SuxDvzmTcziUF",
+            .url = "git+https://github.com/kisstp2006/fluxion-shader#2f6ebe660304cab735e1c2669663ebd0dd68d40f",
+            .hash = "fluxion_shader-0.1.0-FqFMEvtOBwDYCkbQOVR1PHrJ4A6IVjdh5FDnMNgeOh8f",
             .lazy = true,
         },
         .fluxion_platform = .{
